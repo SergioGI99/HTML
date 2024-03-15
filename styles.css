@@ -14,7 +14,7 @@ header {
     border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px;
     border-style: solid;
-    box-shadow: 2px 3px 0px rgb(0 0 0) ;
+    box-shadow: 2px 3px 1px rgb(0 0 0) ;
     display: flex;
     position: static;
     align-items: center;
@@ -33,7 +33,8 @@ header {
 
 .link {
     margin-right: 10px;
-    padding: 10px;}
+    padding: 10px;
+    transition-duration: 0.25s;}
 
 .link:hover {
     transform: scale(1.5) ;}
